@@ -1,2 +1,2 @@
 # css-libary
-A css dictionary created by Vinayak Nautiyal
+A basic css dictionary created by Vinayak Nautiyal
