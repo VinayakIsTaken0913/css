@@ -6,6 +6,33 @@
         height:100px;
         font-family:arial;
       }
+      #navigation {
+           display:flex;
+           background-color:#00FF9E;
+           font-family:arial;
+           justify-content:space-between;
+      }
+      #navigation > div {
+           background-color:cyan;
+           width:50px;
+           
+      }
+      #navigation > div > button {
+          width:50px;
+          height:50px;
+          border:2px solid black;
+      }
+      #navigation > div > button:hover {
+          width:50px;
+          height:50px;
+          border:3px solid black;
+      }
+      #thispage {
+          background-color:#BFFFE7;
+      }
+      .otherpages {
+          background-color:#00FFB9;
+      }
       #contentsdiv {
           background-color:cyan;
           font-family:arial;
@@ -41,6 +68,9 @@
       <h1 id="main_heading">CSS libary</h1>
       <p id="main_subheading">A simple CSS libary for beginners, made by Vinayak Nautiyal</p>
     </div>
+    <br>
+    <nav id="navigation"><div><button id="thispage">Lvl.1</button></div><div><button class="otherpages">Lvl.2</button></div><div ><button class="otherpages">Lvl.3</button></div><div><button class="otherpages">Lvl.4</button></div><div ><button class="otherpages">Lvl.5</button></div></nav>
+    
     <div id="contentsdiv">
     <h1>Contents:</h1>
     <ol>
@@ -49,16 +79,13 @@
         <li>Selectors</li>
         <li>Text</li>
         <li>Colors and backgrounds</li>
-        <li>Flexboxes, divs and spans</li>
-        <li>Transform</li>
-        <li>Animations</li>
-        <li>Misc</li>
     </ol>
+    <p><b>NOTE: You can change between easier and harder topics of css coding on the navigation bar just above this list</b></p>
     </div>
     <div id="whatiscss">
        <h1>What is css?</h1>
        <p>CSS is a web development language which styles and changes HTML elements by element name, id, class etc. You can even make animations with CSS!</p>
-    </div>
+       </div>
     <div id="typesofcss">
     <h1>Types of CSS code</h1>
     <p>Different types of CSS include inline, internal and external. Inline means an element is styled and or edited by css using the style attribute in the opening tag, internal means the the elements are still styled and or edited on the same document but not in an attribute, instead css is applied in a special zone of the html document while external means css is applied to elements on a different document.</p>
